@@ -1,0 +1,36 @@
+﻿<Window
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:__hb_wpf_71"
+    x:Class="__hb_wpf_71.CMainWindow"
+    ResizeMode="CanMinimize" SizeToContent="WidthAndHeight"
+    WindowStartupLocation="CenterScreen">
+    <Grid x:Name="_pnlrt" Width="1000" Height="800">
+        <!--<Canvas x:Name="_cvsrt">
+            <local:RxImageElement x:Name="_imgrdr"/>
+            --><!--<Rectangle x:Name="_rtg1" Width="318" Height="299" Fill="#FF1818BD"
+                Stroke="Black" StrokeThickness="3" RenderTransformOrigin="0.292,-0.436" Canvas.Left="-422" Canvas.Top="-220">
+                <Rectangle.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="71.088"/>
+                        <TranslateTransform X="862.322" Y="531.453"/>
+                    </TransformGroup>
+                </Rectangle.RenderTransform>
+            </Rectangle>--><!--
+        </Canvas>-->
+        <!--<local:CImageRenderer x:Name="_ttrd"/>-->
+
+
+        <local:RxImageVisualContainer x:Name="_rxivc"/>
+        <Button x:Name="_btn1" Content="Button1"
+            HorizontalAlignment="Right" VerticalAlignment="Bottom"
+            Width="75" Margin="0,0,10,10"
+            Click="pf__btn1_Click"/>
+        <Button x:Name="_btn2" Content="Button2"
+            HorizontalAlignment="Right" VerticalAlignment="Bottom"
+            Width="75" Margin="0,0,90,10"
+            Click="pf__btn2_Click"/>
+    </Grid>
+</Window>

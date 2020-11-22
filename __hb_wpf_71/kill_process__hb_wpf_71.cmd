@@ -1,0 +1,1 @@
+wmic process where name='__hb_wpf_71.exe' delete
